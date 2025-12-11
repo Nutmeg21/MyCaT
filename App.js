@@ -11,7 +11,7 @@ import * as FileSystem from 'expo-file-system/legacy'; // SDK 52 uses standard i
 import Papa from 'papaparse';
 
 // --- 1. CONFIGURATION ---
-const API_URL = 'http://192.168.0.94:3000'; // <--- CHECK YOUR IP
+const API_URL = 'http://0.0.0.0:3000'; // <--- CHECK YOUR IP
 
 // --- 2. THEMES ---
 const lightTheme = {
