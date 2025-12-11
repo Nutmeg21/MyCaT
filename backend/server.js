@@ -10,7 +10,7 @@ const app = express();
 const PORT = 3000;
 
 // !!! REPLACE WITH YOUR LAPTOP IP !!!
-const YOUR_LOCAL_IP = '192.168.0.94'; 
+const YOUR_LOCAL_IP = '0.0.0.0'; 
 const SERVER_URL = `http://${YOUR_LOCAL_IP}:${PORT}`; 
 
 // --- Initial Setup & Middleware ---
